@@ -47,37 +47,37 @@
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Email:</label>
-					              <input type="email" class="form-control input-lg" value="<?=$_POST['email'];?>" name="email" required="true">
+					              <input type="email" class="form-control " value="<?=$_POST['email'];?>" name="email" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Password:</label>
-					              <input type="password" class="form-control input-lg" value="<?=$_POST['password'];?>" name="password" required="true">
+					              <input type="password" class="form-control " value="<?=$_POST['password'];?>" name="password" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Firstname:</label>
-					              <input type="text" class="form-control input-lg" value="<?=$_POST['firstname'];?>" name="firstname" required="true">
+					              <input type="text" class="form-control " value="<?=$_POST['firstname'];?>" name="firstname" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Lastname:</label>
-					              <input type="text" class="form-control input-lg" value="<?=$_POST['lastname'];?>" name="lastname" required="true">
+					              <input type="text" class="form-control " value="<?=$_POST['lastname'];?>" name="lastname" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Birthdate:</label>
-					              <input type="date" class="form-control input-lg" value="<?=$_POST['birthdate'];?>" name="birthdate" required="true">
+					              <input type="date" class="form-control " value="<?=$_POST['birthdate'];?>" name="birthdate" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Gender:</label>
-					              <select class="form-control input-lg" name="gender" required="true">
+					              <select class="form-control " name="gender" required="true">
 					                <option <?php if ($_POST['gender'] == "Male") {echo "selected='selected'";}?> value="Male">Male</option>
 					                <option <?php if ($_POST['gender'] == "Female") {echo "selected='selected'";}?> value="Female">Female</option>
 					                <option>Select Gender...</option>
@@ -87,12 +87,12 @@
 					          <div class="col-lg-12 col-sm-12">
 					            <div class="form-group">
 					              <label>Address:</label>
-					              <textarea class="form-control input-lg" name="address" required="true"><?=$_POST['address'];?></textarea> 
+					              <textarea class="form-control " name="address" required="true"><?=$_POST['address'];?></textarea> 
 					            </div>
 					          </div>
 					          <div class="col-lg-12 col-sm-12">
 					          	<span class="btn-response">
-					              <button type="submit" class="btn btn-success btn-lg" onclick="form_process ('signup-form', 'functions/verify-signup.php', 'signup-response')">Create Account</button>
+					              <button type="submit" class="btn btn-success" onclick="form_process ('signup-form', 'functions/verify-signup.php', 'signup-response')">Create Account</button>
 					            </span>  
 					          </div> 
 					        </form>
@@ -111,37 +111,37 @@
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Email:</label>
-					              <input type="email" class="form-control input-lg" value="<?=$_POST['email'];?>" name="email" required="true">
+					              <input type="email" class="form-control " value="<?=$_POST['email'];?>" name="email" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Password:</label>
-					              <input type="password" class="form-control input-lg" value="<?=$_POST['password'];?>" name="password" required="true">
+					              <input type="password" class="form-control " value="<?=$_POST['password'];?>" name="password" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Firstname:</label>
-					              <input type="text" class="form-control input-lg" value="<?=$_POST['firstname'];?>" name="firstname" required="true">
+					              <input type="text" class="form-control " value="<?=$_POST['firstname'];?>" name="firstname" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Lastname:</label>
-					              <input type="text" class="form-control input-lg" value="<?=$_POST['lastname'];?>" name="lastname" required="true">
+					              <input type="text" class="form-control " value="<?=$_POST['lastname'];?>" name="lastname" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Birthdate:</label>
-					              <input type="date" class="form-control input-lg" value="<?=$_POST['birthdate'];?>" name="birthdate" required="true">
+					              <input type="date" class="form-control " value="<?=$_POST['birthdate'];?>" name="birthdate" required="true">
 					            </div>
 					          </div>
 					          <div class="col-lg-6 col-sm-6">
 					            <div class="form-group">
 					              <label>Gender:</label>
-					              <select class="form-control input-lg" name="gender" required="true">
+					              <select class="form-control " name="gender" required="true">
 					                <option <?php if ($_POST['gender'] == "Male") {echo "selected='selected'";}?> value="Male">Male</option>
 					                <option <?php if ($_POST['gender'] == "Female") {echo "selected='selected'";}?> value="Female">Female</option>
 					                <option>Select Gender...</option>
@@ -151,12 +151,12 @@
 					          <div class="col-lg-12 col-sm-12">
 					            <div class="form-group">
 					              <label>Address:</label>
-					              <textarea class="form-control input-lg" name="address" required="true"><?=$_POST['address'];?></textarea> 
+					              <textarea class="form-control " name="address" required="true"><?=$_POST['address'];?></textarea> 
 					            </div>
 					          </div>
 					          <div class="col-lg-12 col-sm-12">
 					          	<span class="btn-response">
-					              <button type="submit" class="btn btn-success btn-lg" onclick="form_process ('signup-form', 'functions/verify-signup.php', 'signup-response')">Create Account</button>
+					              <button type="submit" class="btn btn-success" onclick="form_process ('signup-form', 'functions/verify-signup.php', 'signup-response')">Create Account</button>
 					            </span>  
 					          </div> 
 					        </form>
@@ -173,37 +173,37 @@
 				          <div class="col-lg-6 col-sm-6">
 				            <div class="form-group">
 				              <label>Email:</label>
-				              <input type="email" class="form-control input-lg" name="email" required="true">
+				              <input type="email" class="form-control " name="email" required="true">
 				            </div>
 				          </div>
 				          <div class="col-lg-6 col-sm-6">
 				            <div class="form-group">
 				              <label>Password:</label>
-				              <input type="password" class="form-control input-lg" value="<?=$_POST['password'];?>" name="password" required="true">
+				              <input type="password" class="form-control " value="<?=$_POST['password'];?>" name="password" required="true">
 				            </div>
 				          </div>
 				          <div class="col-lg-6 col-sm-6">
 				            <div class="form-group">
 				              <label>Firstname:</label>
-				              <input type="text" class="form-control input-lg" value="<?=$_POST['firstname'];?>" name="firstname" required="true">
+				              <input type="text" class="form-control " value="<?=$_POST['firstname'];?>" name="firstname" required="true">
 				            </div>
 				          </div>
 				          <div class="col-lg-6 col-sm-6">
 				            <div class="form-group">
 				              <label>Lastname:</label>
-				              <input type="text" class="form-control input-lg" value="<?=$_POST['lastname'];?>" name="lastname" required="true">
+				              <input type="text" class="form-control " value="<?=$_POST['lastname'];?>" name="lastname" required="true">
 				            </div>
 				          </div>
 				          <div class="col-lg-6 col-sm-6">
 				            <div class="form-group">
 				              <label>Birthdate:</label>
-				              <input type="date" class="form-control input-lg" value="<?=$_POST['birthdate'];?>" name="birthdate" required="true">
+				              <input type="date" class="form-control " value="<?=$_POST['birthdate'];?>" name="birthdate" required="true">
 				            </div>
 				          </div>
 				          <div class="col-lg-6 col-sm-6">
 				            <div class="form-group">
 				              <label>Gender:</label>
-				              <select class="form-control input-lg" name="gender" required="true">
+				              <select class="form-control " name="gender" required="true">
 				                <option <?php if ($_POST['gender'] == "Male") {echo "selected='selected'";}?> value="Male">Male</option>
 				                <option <?php if ($_POST['gender'] == "Female") {echo "selected='selected'";}?> value="Female">Female</option>
 				                <option>Select Gender...</option>
@@ -213,12 +213,12 @@
 				          <div class="col-lg-12 col-sm-12">
 				            <div class="form-group">
 				              <label>Address:</label>
-				              <textarea class="form-control input-lg" name="address" required="true"><?=$_POST['address'];?></textarea> 
+				              <textarea class="form-control " name="address" required="true"><?=$_POST['address'];?></textarea> 
 				            </div>
 				          </div>
 				          <div class="col-lg-12 col-sm-12">
 				          	<span class="btn-response">
-				              <button type="submit" class="btn btn-success btn-lg" onclick="form_process ('signup-form', 'functions/verify-signup.php', 'signup-response')">Create Account</button>
+				              <button type="submit" class="btn btn-success" onclick="form_process ('signup-form', 'functions/verify-signup.php', 'signup-response')">Create Account</button>
 				            </span>  
 				          </div> 
 				        </form>
